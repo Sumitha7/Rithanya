@@ -1,0 +1,10 @@
+a=input("")
+b=input("")
+s1=len(a)
+s2=len(b)
+if(s1>s2):
+    print(a)
+elif(s1<s2):
+    print(b)
+else:
+    print(b)
