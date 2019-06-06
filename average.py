@@ -4,5 +4,5 @@ sum=0
 for i in range(a):
     sum=sum+int(b[i])
 d=len(b)
-avg=sum/d
+avg=sum//d
 print(avg)
