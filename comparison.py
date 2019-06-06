@@ -1,5 +1,4 @@
-a=input("")
-b=input("")
+a,b=map(str,input("").split())
 s1=len(a)
 s2=len(b)
 if(s1>s2):
