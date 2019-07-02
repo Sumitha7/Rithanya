@@ -2,16 +2,16 @@
 #include<conio.h>
 void main()
 {
-    int i,n,j,count=0;
-    scanf("%d",&n);
-    int a[n];
-    for(i=0;i<n;i++)
+    int i,N,j,count=0;
+    scanf("%d",&N);
+    int a[N];
+    for(i=0;i<N;i++)
     {
         scanf("%d",&a[i]);
     }
-        for(i=0;i<n;i++)
+        for(i=0;i<N;i++)
         {
-            for(j=i+1;j<n;j++)
+            for(j=i+1;j<N;j++)
             {
                 if(a[i]==a[j])
                 {
